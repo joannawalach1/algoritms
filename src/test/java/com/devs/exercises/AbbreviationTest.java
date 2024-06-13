@@ -12,7 +12,7 @@ public class AbbreviationTest extends TestCase {
         Abbreviation abr = new Abbreviation();
         //Test case 1:
         String oldSentence = "elephant-rides are really fun!";
-        String newSentence = "e6t r3s are r4y fun!";
+        String newSentence = "e6t-r3s are r4y fun!";
         assertEquals(newSentence, abr.abbreviateSentences(oldSentence));
     }
 }
